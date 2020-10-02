@@ -11,3 +11,5 @@ app.get('/top', (req, res) => {
 });
 
 app.listen(3000);
+
+app.use(express.static('public'));
