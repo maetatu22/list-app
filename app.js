@@ -16,7 +16,10 @@ connection.connect((err) => {
   console.log('success');
 });
 
+
+
 app.get('/', (req, res) => {
+
       res.render('top.ejs');
 });
 
@@ -31,6 +34,7 @@ app.get('/index', (req, res) => {
     }
   );
   
+
 });
 
 
