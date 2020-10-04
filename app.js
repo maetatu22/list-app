@@ -33,9 +33,11 @@ app.get('/index', (req, res) => {
       res.render('index.ejs', {items: results})
     }
   );
-  
-
 });
+
+app.get('/new', (req,res) => {
+  res.render('new.ejs');
+})
 
 
 
